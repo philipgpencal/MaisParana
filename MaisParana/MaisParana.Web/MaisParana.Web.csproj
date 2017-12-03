@@ -323,6 +323,7 @@
     <Content Include="Content\assets\img\flags\VE.png" />
     <Content Include="Content\assets\img\flags\VN.png" />
     <Content Include="Content\assets\img\flags\YE.png" />
+    <Content Include="Content\assets\img\logo-vertical-bck-b.png" />
     <Content Include="Content\assets\img\mask.png" />
     <Content Include="Content\assets\img\new_logo.png" />
     <Content Include="Content\assets\img\tables\agenda.png" />

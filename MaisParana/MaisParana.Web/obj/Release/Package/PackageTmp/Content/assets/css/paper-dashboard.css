@@ -5035,7 +5035,7 @@ select.selectpicker {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Muli', "Helvetica", Arial, sans-serif;
+  font-family: 'Raleway', "Helvetica", Arial, sans-serif;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -5194,12 +5194,12 @@ strong {
   background-size: cover;
   background-position: center center;
 }
-.sidebar .logo,
-.off-canvas-sidebar .logo {
-  padding: 18px 0px;
-  margin: 0;
+
+.sidebar .logo, .off-canvas-sidebar .logo {
+  padding: 18px 40px;
+  margin: 0px auto;
   box-shadow: inset -1px 0px 0px 0px #cfcfca;
-  height: 75px;
+  height: 245px;
   position: relative;
   z-index: 4;
   display: block;
@@ -5308,23 +5308,23 @@ strong {
 .off-canvas-sidebar .sidebar-wrapper > .nav li.separator + li {
   margin-top: 31px;
 }
-.sidebar .sidebar-wrapper > .nav p,
-.off-canvas-sidebar .sidebar-wrapper > .nav p {
+.sidebar .sidebar-wrapper > .nav p, .off-canvas-sidebar .sidebar-wrapper > .nav p {
   margin: 0;
   line-height: 30px;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 800;
   text-transform: uppercase;
   position: relative;
   -webkit-transform: translate3d(0px, 0, 0);
   -moz-transform: translate3d(0px, 0, 0);
   -o-transform: translate3d(0px, 0, 0);
   -ms-transform: translate3d(0px, 0, 0);
-  transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0); */
   opacity: 1;
   display: block;
   height: auto;
   white-space: nowrap;
+  color: white;
 }
 .sidebar .sidebar-wrapper > .nav .caret,
 .off-canvas-sidebar .sidebar-wrapper > .nav .caret {
@@ -6214,7 +6214,7 @@ strong {
 body {
   color: #66615b;
   font-size: 14px;
-  font-family: 'Muli', Arial, sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
 }
 body .wrapper {
   min-height: 100vh;
