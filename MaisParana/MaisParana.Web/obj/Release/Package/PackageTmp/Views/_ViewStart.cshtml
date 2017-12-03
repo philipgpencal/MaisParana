@@ -1,0 +1,6 @@
+﻿@{
+    if (!(Request.Url.AbsolutePath.Contains("user") || Request.Url.AbsolutePath.Contains("User") || Request.Url.AbsolutePath.Equals("/")))
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+}
